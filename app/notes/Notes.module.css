@@ -1,0 +1,15 @@
+.note {
+    @apply m-12 p-8 bg-green-400 w-max text-black grid gap-2;
+}
+
+.note > h2 {
+    @apply text-2xl font-bold;
+}
+
+.note > h3 {
+    @apply text-xl font-semibold;
+}
+
+.note > p {
+    @apply text-xs;
+}
